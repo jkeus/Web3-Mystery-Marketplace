@@ -52,6 +52,4 @@ This is an idea that I had while taking part of a Blockchain class at my univeri
 ## Using it!
 - Open 'localhost' or 'localhost:80' in any web browser to access and use the web interface which will connect to and modify the Geth network.
 
-# Shoutouts
 
-Thanks to Proffesor Li for teaching the class and thanks to my boy Aidan Thomas for helping me bring this idea to life!
