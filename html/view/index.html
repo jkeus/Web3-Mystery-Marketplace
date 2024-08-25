@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto</title>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    input[type="text"], button {
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        width: 600px;
+    }
+    button {
+        background-color: #0056b3;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        border-radius: 8px;
+    }
+    button:hover {
+        background-color: #381534;
+    }
+    .cancel-button {
+        background-color: #c0c0c0;
+        color: black;
+    }
+    .cancel-button:hover {
+        background-color: #a9a9a9;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>View Inventory</h2>
+    <p id='p'>No Login</p>
+    <button id="all">View All Listings Offered by Smart Contract</button>
+    <button id="mine">View Your Personal Tokens</button>
+    <p id='info'>placeholder</p>
+    <button class="cancel-button" onclick="window.location.href='/'">Home</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

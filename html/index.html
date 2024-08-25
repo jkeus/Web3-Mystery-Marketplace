@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto</title>
+<style>
+    body, html {
+        width: 100%; 
+        height: 100vh; 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+    }
+    .title {
+        font-size: 48px; 
+        color: #333; 
+        margin-bottom: 20px; 
+    }
+    .button-container {
+        display: flex;
+        width: 100%; 
+        justify-content: center; 
+    }
+    button {
+        padding: 10px 20px; 
+        font-size: 22px; 
+        margin: 0 10px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: #0056b3;
+        color: white;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: #381534;
+    }
+</style>
+</head>
+<body>
+<div class="title">Random Mystery Box Verification Contract</div>
+    <p id='info'>no login</p>
+<div class="button-container">
+    <button onclick="window.location.href='/login/'">Log In</button>
+    <button onclick="window.location.href='/create/'">Create Listing</button>
+    <button onclick="window.location.href='/purchase/'">Purchase</button>
+    <button onclick="window.location.href='/view/'">View Inventory</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
