@@ -1,3 +1,7 @@
+# Context
+
+This is an idea that I had while taking part of a Blockchain class at my univeristy. The goal of this project was to provide a 3rd party way of authenticating the actual mystery/chances behind promotion mystery boxes. I got inspiration from those mystery boxes on marketplaces that you see on websites like tiktok, instagram marketplace, etc..
+
 # File Descriptions
 
 ## ./contract.sol
